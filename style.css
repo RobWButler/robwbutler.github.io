@@ -1,0 +1,127 @@
+.container {
+    width:960px;
+    margin: auto;
+    background-color:white;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.topbar {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    position:fixed;
+    height:100px;
+    top:0;
+    width:100%;
+    padding-bottom:0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin-left:480px;
+    width:960px;
+}
+
+h1 span {
+    background-color:#4aaaa5;
+    padding:20px;
+    position:absolute;
+    bottom:0;
+    float:left;
+}
+
+h2 {
+    background-color: #ffffff;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:5px;
+    margin-bottom:15px;
+    margin-top:100px;
+    font-size:200%;
+    padding-top:25px;
+    padding-bottom:10px;
+}
+
+h2 span {
+    width:960px;
+    padding:20px;
+}
+
+body {
+    background-image: url("../images/cartographer_@2X.png");
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+
+p {
+    background-color: #ffffff;
+    padding:10px;
+    margin:10px;
+    text-align:justify;
+}
+
+.links {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:#4aaaa5;
+    margin-right:485px;
+    float:right;
+    top:20px;
+    position:relative;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:#4aaaa5;
+}
+
+#profileimg {
+    background-color:white;
+    padding:15px;
+    float:left;
+}
+
+.divider {
+    border: solid 1px;
+    border-color:#4aaaa5;
+    border-width:2px;
+    margin:auto;
+    width: 95%;
+    height:0px;
+}
+
+.portfolio {
+    size:200px;
+    padding:30px;
+    width:25%;
+    float:left;
+    position:relative;
+}
+
+
+.portfoliotext {
+    position:absolute;
+    bottom:50px;
+    width:170px;
+    background-color:gray;  
+    padding:15px;
+    color:white;
+    text-align:center;
+}
+
+.footbar {
+    background-color: darkslategray;
+    border-color: #cccccc;
+    position:fixed;
+    height:50px;
+    bottom:0;
+    width:100%;
+    padding-top:0;
+    margin-top:50px;
+}
