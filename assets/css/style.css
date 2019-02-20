@@ -28,7 +28,9 @@ h1 {
     color: #ffffff;
     margin-left:480px;
     width:960px;
-    float:left;
+    position:relative;
+    left:-480px;
+    bottom:-80px;
 }
 
 h1 span {
@@ -78,6 +80,8 @@ p {
     margin-right:485px;
     float:right;
     position:relative;
+    left:480px;
+    top:20px;
 }
 
 a {
