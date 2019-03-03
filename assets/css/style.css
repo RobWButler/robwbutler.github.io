@@ -1,162 +1,96 @@
-.container {
-    width:960px;
-    margin: auto;
-    background-color:white;
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.topbar {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    position:fixed;
-    height:100px;
-    top:0;
-    width:100%;
-    padding-bottom:0;
-}
-
-.navbar {
-    width:960px;
-    margin: auto;
-    height: 100px;
-}
-
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    margin-left:480px;
-    width:960px;
-    position:relative;
-    left:-480px;
-    bottom:-80px;
+    font-size:18pt;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:bold;
+    color:gray;
 }
 
-h1 span {
-    background-color:#4aaaa5;
-    padding:20px;
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size:24pt;
+    font-weight: bold;
+}
+
+h3 span {
+    background-color: gray;
+    padding:15px;
     position:absolute;
     bottom:0;
-    float:left;
-}
-
-h2 {
-    background-color: #ffffff;
-    color:#4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left:5px;
-    margin-bottom:15px;
-    margin-top:100px;
-    font-size:200%;
-    padding-top:25px;
-    padding-bottom:10px;
-}
-
-h2 span {
-    width:960px;
-    padding:20px;
-}
-
-body {
-    background-image: url("../images/cartographer_@2X.png");
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:auto;
-}
-
-p {
-    background-color: #ffffff;
-    padding:10px;
-    margin:10px;
-    text-align:justify;
-}
-
-.links {
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color:#4aaaa5;
-    margin-right:485px;
-    float:right;
-    position:relative;
-    left:480px;
-    top:20px;
 }
 
 a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color:#4aaaa5;
+    color: gray;
 }
 
-#profileimg {
-    background-color:white;
-    padding:15px;
+.nav-link {
+    color: gray;
+    font-size:16pt;
+    float:right;
+}
+
+body {
+    color:darkslategray;
+}
+
+.nav-masthead .active {
+    color:darkslategray;
+}
+
+.img {
     float:left;
-    size:300px;
-}
-
-.divider {
-    border: solid 1px;
-    border-color:#4aaaa5;
-    border-width:2px;
-    margin:auto;
-    width: 95%;
-    height:0px;
-}
-
-.portfolio {
-    size:200px;
-    padding:30px;
-    width:25%;
-    float:left;
-    position:relative;
+    margin:5px;
+    z-index:1;
 }
 
 
-.portfoliotext {
-    position:absolute;
-    bottom:50px;
-    width:170px;
-    background-color:gray;  
-    padding:15px;
-    color:white;
-    text-align:center;
+.inner-cover {
+    background-color:lightgray;
 }
 
-.footbar {
-    background-color: darkslategray;
-    border-color: #cccccc;
-    position:fixed;
-    height:50px;
-    bottom:0;
+.cover-container {
+    max-width:60rem;
+    margin-top:5rem;
+}
+
+hr {
+    border-top: 1pt solid rgba(0, 0, 0, 1);
+}
+
+p {
+    text-shadow: none; 
+    color:#233333;
+    text-align:justify;
+}
+
+body {
+    background-image: url(assets/images/cartographer_@2X.png)
+}
+
+.masthead {
     width:100%;
-    padding-top:0;
-    margin-top:50px;
+    position:fixed;
+    top:0;
 }
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+.inner {
+    max-width:60rem;
+    margin: 0 auto 0 auto;
+}
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+.text-image {
+    z-index:2;
+    position: absolute;
+    margin-left:0.33rem;
+    margin-top:7rem;
+    color:white;
+}
+
+.text-image span {
+    background-color:darkslategray;
+    width:33%;
+    padding-left:4rem;
+    padding-right:4rem;
+}

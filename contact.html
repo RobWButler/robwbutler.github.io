@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Contact</title>
+</head>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-        <title>Contact</title>
-    </head>
-<body>
-    <div class="topbar">
-        <div class="navbar">
-        <h1><span>Robert Butler</span></h1>
-        <section class="links">
-            <a href="index.html">About</a>
-            |
-            <a href="#">Contact</a>
-            |
-            <a href="portfolio.html">Portfolio</a>
-        </section>
-        </div>
-    </div>
+    <body>
+        <header class="masthead bg-white mb-auto shadow mb-5 p-3">
+            <div class="inner">
+              <h3 class="masthead-brand"><span>Robert Butler</span></h3>
+              <nav class="nav nav-masthead justify-content-center float-right">
+                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link active" href="#">Contact</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </nav>
+            </div>
+          </header>
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-white">
 
-    <div class="container">
-        <h2><span>Contact</span></h2>
+                    <main role="main" class="inner cover w-100">
+                      <h1 class="cover-heading mt-2">Contact</h1><hr><br>
+                      <div class="form-group">
+                          <div class="form-group">
+                              <label for="usr">Name:</label>
+                              <input type="text" class="form-control" id="usr">
+                            </div>
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                        <label for="comment">Subject:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary">Submit</button>
 
-        <div class="divider"><figure></figure></div>
-
-        <form action="/action_page.php">
-            <label for="fname">Your name</label>
-            <input type="text" id="form-name" name="Name" placeholder="">
-            <div></div>
-            <label for="fname">Email</label>
-            <input type="text" id="form-email" name="Email" placeholder="">
-            <div></div>
-            <label for="fname">Subject</label>
-            <input type="text" id="form-subject" name="Subject" style="height:200px" placeholder="">
-            <div></div>
-            <input type="submit" value="Submit">
-        </form>
-        
-        
-    </div>
-</body>
-<div class="footbar"></div>
+                    </main>
+                  
+                    <footer class="mastfoot mt-auto">
+                      <div class="inner">
+                        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                      </div>
+                    </footer>
+                  </div>
+    </body>
 </html>

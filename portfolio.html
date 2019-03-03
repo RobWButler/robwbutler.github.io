@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-        <title>Portfolio</title>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Portfolio</title>
 </head>
-<body>
-    <div class="topbar">
-        <div class="navbar">
-        <h1><span>Robert Butler</span></h1>
-        <section class="links">
-            <a href="index.html">About</a>
-            |
-            <a href="contact.html">Contact</a>
-            |
-            <a href="#">Portfolio</a>
-        </section>
-        </div>
-    </div>
-
-    <div class="container">
-        <h2><span>Portfolio</span></h2>
-
-        <div class="divider"><figure></figure></div>
-
-        <div class="portfolio portfolioimage"><img src="assets/images/portfolio1.jpg"><div class="portfoliotext">Product 1</div></div> 
-        <div class="portfolio portfolioimage"><img src="assets/images/portfolio2.jpg"><div class="portfoliotext">Product 2</div></div>
-        <div class="portfolio portfolioimage"><img src="assets/images/portfolio3.jpg"><div class="portfoliotext">Product 3</div></div>
-        <div class="portfolio portfolioimage"><img src="assets/images/portfolio4.jpg"><div class="portfoliotext">Product 4</div></div>
-        <div class="portfolio portfolioimage"><img src="assets/images/portfolio5.jpg"><div class="portfoliotext">Product 5</div></div>
+<html>
+    <body>
+        <header class="masthead bg-white mb-auto shadow mb-5 p-3">
+            <div class="inner">
+              <h3 class="masthead-brand"><span>Robert Butler</span></h3>
+              <nav class="nav nav-masthead justify-content-center float-right">
+                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="#">Portfolio</a>
+              </nav>
+            </div>
+          </header>
+        
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-white">
     
-    </div>
-</body>
-<div class="footbar"></div>
+                    <main role="main" class="inner cover w-100">
+                      <h1 class="cover-heading mt-2">Portfolio</h1><hr><br>
+                        <div class="row p-3">
+                          <div class="w-33"><img src="assets/images/portfolio1.jpg" class="img mr-4 shadow"><p class="text-image span"><span>Portfolio 1</span></p></div>
+                          <div class="w-33"><img src="assets/images/portfolio2.jpg" class="img mr-4 shadow"><p class="text-image span"><span>Portfolio 2</span></p></div>
+                          <div class="w-33"><img src="assets/images/portfolio3.jpg" class="img mr-4 shadow"><p class="text-image span"><span>Portfolio 3</span></p></div>
+                        </div>
+                        <div class="row p-3">
+                          <div class="w-33"><img src="assets/images/portfolio4.jpg" class="img mr-4 shadow"><p class="text-image span"><span>Portfolio 4</span></p></div>
+                          <div class="w-33"><img src="assets/images/portfolio5.jpg" class="img mr-4 shadow"><p class="text-image span"><span>Portfolio 5</span></p></div>
+                        </div>
+                    </main>
+                  
+                    <footer class="mastfoot mt-auto">
+                      <div class="inner">
+                        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                      </div>
+                    </footer>
+                  </div>
+    </body>
 </html>
