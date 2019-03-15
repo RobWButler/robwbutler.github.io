@@ -48,12 +48,12 @@ body {
 }
 
 
-.inner-cover {
+.inner .cover {
     background-color:lightgray;
 }
 
 .cover-container {
-    max-width:60rem;
+    max-width:960px;
     margin-top:5rem;
 }
 
@@ -102,11 +102,13 @@ body {
     .masthead-brand span{font-size: .8em;}
     .nav-link{font-size: 1em;}
     html body{height:auto; width:auto}
+    .inner .cover{width:auto;}
 }
 
 @media (max-width: 450px) {
     .masthead-brand span{font-size: .6em;}
     .nav-link{font-size: .8em;}
     html body{height:auto; width:auto}
+    .inner .cover{width:auto;}
 
 }
