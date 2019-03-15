@@ -33,6 +33,7 @@ a {
 
 body {
     color:darkslategray;
+    height:100%;
 }
 
 
@@ -55,6 +56,7 @@ body {
 .cover-container {
     max-width:60rem;
     margin-top:5rem;
+    height:100%;
 }
 
 hr {
@@ -68,7 +70,7 @@ p {
 }
 
 body {
-    background-image: url(assets/images/cartographer_@2X.png)
+    background-image: url(../images/cartographer_@2X.png)
 }
 
 .masthead {
