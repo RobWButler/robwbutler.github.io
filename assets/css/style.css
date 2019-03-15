@@ -103,6 +103,8 @@ body {
     .nav-link{font-size: 1em;}
     html body{height:auto; width:auto}
     .inner .cover{width:auto;}
+    .img{width:50%}
+    .text-image span {width:50%; margin-left:0px}
 }
 
 @media (max-width: 450px) {
@@ -110,5 +112,6 @@ body {
     .nav-link{font-size: .8em;}
     html body{height:auto; width:auto}
     .inner .cover{width:auto;}
-
+    .img{width:50%; margin: .5px;}
+    .text-image span {width:50%; margin-left:0px;}
 }
