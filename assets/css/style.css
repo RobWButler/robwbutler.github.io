@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size:1.5rem;
+    font-size:28pt;
     padding-top:5px;
     padding-bottom:5px;
     font-weight:900;
@@ -75,7 +75,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(black)
+    background-image: radial-gradient(ellipse at center, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
 }
 
 .masthead {
@@ -83,6 +83,8 @@ body {
     position:fixed;
     top:0;
     z-index: 3;
+    box-shadow: -2pt 2pt 1pt black;
+
 }
 
 .inner {
@@ -99,7 +101,7 @@ body {
 
 .text-image span {
     display:inline-block;
-    background-color:darkslategray;
+    background-color:black;
     text-align:center;
     width:200px;
     margin-left:5px;
@@ -110,8 +112,12 @@ body {
     font-weight:600;
 }
 
-.splashqual{
+.splashqual h2{
+    font-family: "Lato", sans-serif !important;
     margin-top:5rem;
+    color:black;
+    text-shadow:none;
+    font-weight:bold;
 }
 
 .tab-container{
@@ -129,7 +135,7 @@ body {
 }
 
 .tab{
-    background: url(../images/tab.png) no-repeat;
+    background: url(../images/taborig.png) no-repeat;
     background-size:cover;
     text-align:center;
     background-position: center;
@@ -164,22 +170,30 @@ body {
     font-size: 18pt;
 }
 
+a{
+    color:black
+}
+
+a:hover{
+    color:forestgreen;
+    text-decoration: none;
+}
+
 @media (max-width: 570px) {
     .masthead-brand span{font-size: .8em;}
-    .nav-link{font-size: 1em;}
+    a.nav-link{font-size: 1em;}
     html body{height:auto; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%}
     .text-image span {width:50%; margin-left:0px}
-    .tab{height: auto; background-size: auto; float:none;}
-    .tab span{font-size: 18pt; padding: 2rem 1rem 2rem 1rem; margin-right: 0rem;
-    }
+    .tab{height: auto; background-size: auto; float:none; background: url(../images/tab.png) no-repeat;}
+    .tab span{font-size: 18pt; padding: 1.5rem 1rem 2rem 1rem; margin-right: 0rem;}
 
 }
 
 @media (max-width: 450px) {
     .masthead-brand span{font-size: .6em;}
-    .nav-link{font-size: .8em;}
+    a.nav-link{font-size: .8em;}
     html body{height:auto; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%; margin: .5px;}
