@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700,900|Roboto|Poppins:600" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -9,41 +9,31 @@
 </head>
 <html>
     <body>
-        <header class="masthead bg-white mb-auto shadow mb-5 p-3">
+        <header class="masthead bg-white mb-auto mb-5 p-3">
             <div class="inner">
-              <a href="index.html""><h3 class="masthead-brand"><span>Robert Butler</span></h3></a>
+              <a href="index.html""><h3 class="masthead-brand" id="nametag"><span>Robert Butler</span></h3></a>
               <nav class="nav nav-masthead justify-content-center float-right">
-                <a class="nav-link" href="index.html">About</a>
-                <a class="nav-link active" href="#">Contact</a>
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link active masthead-brand" href="#">Contact</a>
+                <a class="nav-link" href="about.html">About</a>
               </nav>
             </div>
           </header>
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-white">
 
                     <main role="main" class="inner cover w-100">
-                      <h1 class="cover-heading mt-2">Contact</h1><hr><br>
-                      <div class="form-group">
-                          <div class="form-group">
-                              <label for="usr">Name:</label>
-                              <input type="text" class="form-control" id="usr">
-                            </div>
-                            <div class="form-group">
-                              <label for="email">Email:</label>
-                              <input type="email" class="form-control" id="email">
-                            </div>
-                        <label for="comment">Subject:</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                      </div>
-                      <button type="button" class="btn btn-primary">Submit</button>
+                      <h1 class="cover-heading mt-2">Contact</h1><hr>
 
+                      <p><b>Email:</b> <a href="mailto: robwbutler@gmail.com">robwbutler@gmail.com</a></p>
+                      <p><b>Phone:</b> (912) 657-4002</p>
+                      <p><b>Linkedin:</b> <a href="https://www.linkedin.com/in/robert-butler-97aa8917a/">My LinkedIn</a></p>
+                      <p><b>GitHub:</b> <a href="https://github.com/RobWButler/">RobWButler</a></p>
                     </main>
                   
-                    <footer class="mastfoot mt-auto">
-                      <div class="inner">
-                        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-                      </div>
-                    </footer>
+
                   </div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+    <script src="assets/js/script.js"></script>
 </html>
