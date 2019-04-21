@@ -9,19 +9,24 @@ h1 {
 
 h1.cover-heading.mt-2{
     font-variant: small-caps;
+    background-color:black;
+    color:white;
+    width:fit-content;
 }
 
 h3 {
     color: forestgreen;
-    font-size:2.5rem;
-    font-weight: 600;
+    text-shadow:-1pt 1pt 0pt white;
+    font-size:3rem;
+    font-weight: 900;
     font-family: 'Poppins', sans-serif
 
 }
 
 h3 span {
     background-color: black;
-    padding:15px;
+    padding:.5rem .2rem .5rem .2rem;
+    width:fit-content;
     position:absolute;
     bottom:0;
     font-variant: small-caps;
@@ -32,18 +37,24 @@ h3 span {
 a.nav-link {
     font-size:1.4rem;
     float:right;
+    font-weight: bolder;
+
 }
+
 
 body {
     color:darkslategray;
     font-family: 'Roboto', sans-serif;
 
 }
-
+.nav-masthead .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+}
 
 .nav-masthead .active {
     color:black;
-    text-shadow: 1pt 1pt 1pt forestgreen;
+    text-shadow: -1pt 1pt 0pt forestgreen;
 }
 
 .img {
@@ -61,21 +72,32 @@ body {
     max-width:960px;
     margin-top:5rem;
     position:relative;
-    box-shadow: -2pt 2pt 1pt black;
+    box-shadow: -2pt 2pt 0pt black;
+    
 }
 
 hr {
-    border-top: 1pt solid rgba(0, 0, 0, 1);
+    border-top: 2pt solid rgba(0, 0, 0, 1);
 }
 
 p {
     text-shadow: none; 
     color:#233333;
     text-align:justify;
+    font-family: "Roboto", sans-serif
 }
 
 body {
-    background-image: radial-gradient(ellipse at center, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background-image: radial-gradient(ellipse at center, rgb(54, 92, 54) 0%,rgba(14,14,14,1) 100%);
+    background-size:cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html body{
+    height:100%;
+    overflow:scroll;
 }
 
 .masthead {
@@ -83,10 +105,14 @@ body {
     position:fixed;
     top:0;
     z-index: 3;
-    box-shadow: -2pt 2pt 1pt black;
+    box-shadow: -2pt 2pt 0pt black;
 
 }
-
+.mastfoot .inner p{
+    font-size:8pt;
+    color:lightgray!important;
+    text-shadow:none;
+}
 .inner {
     max-width:60rem;
     margin: 0 auto 0 auto;
@@ -105,7 +131,17 @@ body {
     text-align:center;
     width:200px;
     margin-left:5px;
+    transform: rotate(-7deg);
+    box-shadow:-1pt 1pt 0pt white;
 }   
+
+.text-image span:hover{
+    color:black;
+    background-color:white;
+    box-shadow:-1pt 1pt 0pt black;
+    font-weight: bolder;
+
+}
 
 .emptybox::placeholder{
     color:black;
@@ -147,7 +183,7 @@ body {
     font-weight:900;
     cursor: pointer;
     float:right;
-    text-shadow: -1pt 1pt 1pt white, -2pt 2pt 1pt black;
+    text-shadow: -1pt 1pt 0pt white, -2pt 2pt 0pt black;
     font-variant:small-caps;
     transition: transform 0.1s linear;
     margin-right: 1rem;
@@ -170,31 +206,35 @@ body {
     font-size: 18pt;
 }
 
+.portimage{
+    box-shadow: -1.5pt 1.5pt 0pt black;
+}
+
 a{
     color:black
 }
 
 a:hover{
-    color:forestgreen;
+    color:black;
     text-decoration: none;
 }
 
 @media (max-width: 570px) {
     .masthead-brand span{font-size: .8em;}
     a.nav-link{font-size: 1em;}
-    html body{height:auto; width:auto}
+    html body{height:100%; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%}
     .text-image span {width:50%; margin-left:0px}
     .tab{height: auto; background-size: auto; float:none; background: url(../images/tab.png) no-repeat;}
     .tab span{font-size: 18pt; padding: 1.5rem 1rem 2rem 1rem; margin-right: 0rem;}
-
+    .splashtext{position:relative; float:left; left:0; font-size:18pt}
 }
 
 @media (max-width: 450px) {
     .masthead-brand span{font-size: .6em;}
     a.nav-link{font-size: .8em;}
-    html body{height:auto; width:auto}
+    html body{height:100%; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%; margin: .5px;}
     .text-image span {width:50%; margin-left:0px;}
