@@ -12,6 +12,8 @@ h1.cover-heading{
     background-color:black;
     color:white;
     width:fit-content;
+    box-shadow:-1pt 1pt 0pt white, -3pt 3pt 0pt black;
+    border:white 2px solid;
 }
 
 h3 {
@@ -38,6 +40,9 @@ a.nav-link {
     font-size:1.4rem;
     float:right;
     font-weight: bolder;
+    padding: 2pt;
+    margin-left:1rem;
+
 
 }
 
@@ -48,13 +53,26 @@ body {
 
 }
 .nav-masthead .nav-link{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
     font-variant: small-caps;
+    border:2px solid black;
+    transform:rotate(-7deg);
+    background-color:black;
+    color:white;
+    border: 2px solid white;
+    box-shadow:-1pt 1pt 0pt black;
 }
 
 .nav-masthead .active {
     color:black;
-    text-shadow: -1pt 1pt 0pt forestgreen;
+    text-shadow: -1pt 1pt 0pt black;
+    border:2px solid white;
+    transform:rotate(0deg);
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    box-shadow:-1pt 1pt 0pt white, -2pt 2pt 0pt black;
 }
 
 .img {
@@ -222,9 +240,14 @@ a:hover{
     text-decoration: none;
 }
 
+#biopic{
+    box-shadow: -1.5pt 1.5pt 0pt black;
+}
+
 @media (max-width: 570px) {
     .masthead-brand span{font-size: .8em;}
-    a.nav-link{font-size: 1em;}
+    #nametag{font-size: 2rem;}
+    a.nav-link{font-size: 1em; padding-left:0rem; margin-left:3pt; padding-right:0rem}
     html body{height:100%; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%}
@@ -235,8 +258,8 @@ a:hover{
 }
 
 @media (max-width: 450px) {
-    .masthead-brand span{font-size: .6em;}
-    a.nav-link{font-size: .8em;}
+    .masthead-brand span{font-size: .8em;}
+    a.nav-link{font-size: .7em; margin-left:3pt; padding-right:0rem}
     html body{height:100%; width:auto}
     .inner .cover{width:auto;}
     .img{width:50%; margin: .5px;}
