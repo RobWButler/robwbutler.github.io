@@ -7,7 +7,7 @@ h1 {
     color:black;
 }
 
-h1.cover-heading.mt-2{
+h1.cover-heading{
     font-variant: small-caps;
     background-color:black;
     color:white;
@@ -69,7 +69,7 @@ body {
 }
 
 .cover-container {
-    max-width:960px;
+    max-width:1000px;
     margin-top:5rem;
     position:relative;
     box-shadow: -2pt 2pt 0pt black;
@@ -114,7 +114,7 @@ html body{
     text-shadow:none;
 }
 .inner {
-    max-width:60rem;
+    max-width:1000px;
     margin: 0 auto 0 auto;
 }
 
@@ -127,18 +127,21 @@ html body{
 
 .text-image span {
     display:inline-block;
+    border: 2px solid white;
     background-color:black;
     text-align:center;
     width:200px;
     margin-left:5px;
     transform: rotate(-7deg);
-    box-shadow:-1pt 1pt 0pt white;
+    box-shadow:-1pt 1pt 0pt black;
+    font-variant:small-caps
 }   
 
 .text-image span:hover{
     color:black;
     background-color:white;
-    box-shadow:-1pt 1pt 0pt black;
+    border: 2px solid black;
+    box-shadow:-1pt 1pt 0pt white;
     font-weight: bolder;
 
 }
