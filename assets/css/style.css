@@ -106,7 +106,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(ellipse at center, rgb(54, 92, 54) 0%,rgba(14,14,14,1) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(54, 92, 54) 0%,rgba(14,14,14,1) 100%);
     background-size:cover;
     margin: 0;
     background-repeat: no-repeat;
