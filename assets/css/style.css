@@ -24,7 +24,6 @@ h3 {
     font-size:3rem;
     font-weight: 900;
     font-family: 'Poppins', sans-serif
-
 }
 
 h3 span {
@@ -34,9 +33,7 @@ h3 span {
     position:absolute;
     bottom:0;
     font-variant: small-caps;
-
 }
-
 
 a.nav-link {
     font-size:1.4rem;
@@ -44,16 +41,13 @@ a.nav-link {
     font-weight: bolder;
     padding: 2pt;
     margin-left:1rem;
-
-
 }
-
 
 body {
     color:darkslategray;
     font-family: 'Roboto', sans-serif;
-
 }
+
 .nav-masthead .nav-link{
     font-family: 'Oswald', sans-serif;
     font-weight:700;
@@ -83,7 +77,6 @@ body {
     z-index:1;
 }
 
-
 .inner .cover {
     background-color:lightgray;
 }
@@ -93,7 +86,7 @@ body {
     margin-top:5rem;
     position:relative;
     box-shadow: -2pt 2pt 0pt black;
-    
+    border: black solid 3px;
 }
 
 hr {
@@ -108,7 +101,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(ellipse at center, rgba(54, 92, 54) 0%,rgba(14,14,14,1) 100%);
+    background-image: radial-gradient(ellipse at center, rgb(38, 63, 38) 0%,rgba(14,14,14,1) 100%);
     background-size:cover;
     margin: 0;
     background-repeat: no-repeat;
@@ -133,6 +126,7 @@ html body{
     color:lightgray!important;
     text-shadow:none;
 }
+
 .inner {
     max-width:1000px;
     margin: 0 auto 0 auto;
@@ -163,7 +157,6 @@ html body{
     border: 2px solid black;
     box-shadow:-1pt 1pt 0pt white;
     font-weight: bolder;
-
 }
 
 .emptybox::placeholder{
