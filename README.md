@@ -1,4 +1,2 @@
 # robwbutler.github.io
-My first website!
-
-This has come a long way from a simple HTML page, to an essentially palette swapped Bootstrap theme... though to be fair, it's still not far from that, functionality wise.
+My portfolio page. It started as a simple HTML page, then a simple Bootstrap page, then a slightly gussied up Bootstrap page. Now it's a NextJS/React page with some mild Bootstrap defaults.
