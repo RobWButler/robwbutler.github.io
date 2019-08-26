@@ -12324,7 +12324,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=D%3A%5Cprojects%5Cnew-portfolio%5Cpages%5Ccontact.js ***!
   \****************************************************************************************************************************/
@@ -12347,5 +12347,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contact.js.map
